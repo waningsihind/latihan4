@@ -42,7 +42,7 @@ export default {
     if (!this.name) {
         this.showError = true;
         return false,
-        alert("Masukkan Todo!");
+        alert("Input your Todo!");
       }
       this.todos.push(this.name);
       this.name = "";
@@ -58,14 +58,18 @@ export default {
     font-weight: bold;
 }
 .name {
-    width: 100%S;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    font-size: 20px;
+    font-size: 40px;
 }
 .button{
+    display: flex;
+    justify-content: flex-end;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;

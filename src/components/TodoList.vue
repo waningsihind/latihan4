@@ -76,5 +76,12 @@ export default {
 </script>
 
 <style scoped>
-/* Add your scoped styles here */
+button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
 </style>
